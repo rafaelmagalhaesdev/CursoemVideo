@@ -1,0 +1,7 @@
+#preco = float(input('Qual é o preço do produto? R$ '))
+#novo = preco - (preco * 5 / 100)
+#print('O produto que custava R${:.2f}, na promoção com desconto de 5% vai custar R${:.2f}'.format(preco, novo))
+produto = float(input('Qual é o preço do produto ? R$'))
+avista = produto - (produto * 8 / 100)
+parcelado = produto + (produto * 3 / 100)
+print('Estamos com um desconto imperdivel, na compra do produto "X" de R${:.2f}, se o pagamento for via pix sai com 8% de desconto, com isso sai por R${}, mas caso haja parcelamento terá um acrescimo de 3% de juros saindo por R${}'.format(produto, avista, parcelado))
